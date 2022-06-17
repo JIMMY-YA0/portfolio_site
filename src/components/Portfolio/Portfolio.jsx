@@ -1,18 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./Portfolio.css";
-import img01 from "../../assets/portfolio.png";
+import Port_img from "../../assets/Portfolio.JPG";
+import Macro_img from "../../assets/MacroView.JPG";
 
 const portfolioData = [
   {
-    imgUrl: img01,
-    title: "React Landing Page",
-    url: "#",
+    imgUrl: Port_img,
+    title: "Portfolio Website",
+    url: "http://jimmyyao.com.au/",
   },
   {
-    imgUrl: img01,
-    title: "React Landing Page 2",
-    url: "#",
+    imgUrl: Macro_img,
+    title: "MacroView",
+    url: "https://macroview.web.app/Home",
   },
 ];
 
@@ -28,15 +29,17 @@ const Portfolio = () => {
 
           {portfolioData.map((item, index) => {
             return (
-              <Col lg="4" md="6" sm="6" key={index}>
-                <div className="portfolio_card">
-                  <div className="portfolio_img">
+              <Col lg="6" md="6" sm="6" key={index}>
+                <div className="portfolio_card ">
+                  <div className="portfolio_img justify-content-between">
                     <img src={item.imgUrl} alt="" className="w-100" />
                   </div>
 
                   <div className="portfolio_content">
                     <h5>{item.title}</h5>
-                    <a href={item.url}>View live Demo</a>
+                    <a href={item.url} target="_blank">
+                      View live Demo
+                    </a>
                   </div>
                 </div>
               </Col>

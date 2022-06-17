@@ -17,7 +17,7 @@ const Education = () => {
           <td>Bachelor</td>
           <td>Computer Science</td>
           <td>The University of Adelaide</td>
-          <td>2017.6-2019.12</td>
+          <td> JULY 2017 - DEC 2019</td>
         </tr>
       </tbody>
     </table>

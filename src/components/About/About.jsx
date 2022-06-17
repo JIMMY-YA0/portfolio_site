@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./About.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../assets/about.JPG";
+import aboutImg from "../../assets/developer.svg";
 import Education from "./Education";
 import Skills from "./Skills";
-import Award from "./Award";
+import Volunteer from "./Volunteer";
 const About = () => {
   const [aboutFilter, setAboutFilter] = useState("ABOUT");
 
@@ -37,10 +37,10 @@ const About = () => {
                 Skills
               </button>
               <button
-                className={`about_btn ${aboutFilter === "AWARD" ? "about_btn-active" : ""}`}
-                onClick={() => setAboutFilter("AWARD")}
+                className={`about_btn ${aboutFilter === "VOLUNTEER" ? "about_btn-active" : ""}`}
+                onClick={() => setAboutFilter("VOLUNTEER")}
               >
-                Award
+                Volunteer
               </button>
             </div>
           </Col>
@@ -54,25 +54,20 @@ const About = () => {
                 <div className="about_content">
                   <h2>I'm Jimmy Yao</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsam
-                    exercitationem harum voluptate. Voluptates exercitationem mollitia accusamus
-                    ullam, optio iste placeat possimus dolorum nisi praesentium tempora corporis
-                    fugiat eos perferendis!
+                    Detail-oriented Front End Developer with experience working with HTML, CSS,
+                    JavaScript, React. Highly adept at both independent and collaborative projects,
+                    with an emphasis on landing page and website development.
                   </p>
                   <div className="social_links">
                     <h6 className="mb-3">Connect with me:</h6>
+
                     <span>
-                      <a href="#">
-                        <i class="ri-facebook-line"></i>
-                      </a>
-                    </span>
-                    <span>
-                      <a href="#">
+                      <a href="https://github.com/JIMMY-YA0" target="_blank">
                         <i class="ri-github-fill"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/jimmy-yao-755309200/" target="_blank">
                         <i class="ri-linkedin-box-fill"></i>
                       </a>
                     </span>
@@ -82,7 +77,7 @@ const About = () => {
             )}
             {aboutFilter === "EDUCATION" && <Education />}
             {aboutFilter === "SKILLS" && <Skills />}
-            {aboutFilter === "AWARD" && <Award />}
+            {aboutFilter === "VOLUNTEER" && <Volunteer />}
           </Col>
         </Row>
       </Container>

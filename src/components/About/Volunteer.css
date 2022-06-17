@@ -1,36 +1,36 @@
-.single_award {
+.single_volunteer {
   background: #132347;
   padding: 20px;
   border-radius: 5px;
   border-bottom: 1px solid #7865ff;
 }
 
-.award_item {
-  width: 47%;
+.volunteer_item {
+  width: 65%;
 }
 
-.award_title span {
+.volunteer_title span {
   font-weight: 500;
   color: #fff;
-  opacity: 60%;
+  opacity: 0.6;
   font-size: 0.8rem;
 }
 
-.award_year {
+.volunteer_year {
   color: #fff;
   margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 992px) {
-  .award_title {
+  .volunteer_title {
     font-size: 0.8rem;
   }
 
-  .award_title span {
+  .volunteer_title span {
     font: size 0.7rem;
   }
 
-  .award_year {
+  .volunteer_year {
     font-size: 0.7rem;
   }
 }

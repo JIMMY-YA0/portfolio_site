@@ -3,34 +3,46 @@ import "./Skills.css";
 
 const frontendSkills = [
   {
+    title: "Html5",
+    percentage: "90%",
+  },
+  {
     title: "JavaScript",
-    percentage: "85%",
+    percentage: "75%",
   },
   {
     title: "React.js",
-    percentage: "85%",
+    percentage: "80%",
   },
   {
     title: "Redux",
-    percentage: "85%",
+    percentage: "70%",
   },
   {
-    title: "Next.js",
-    percentage: "85%",
+    title: "Git & Github",
+    percentage: "73%",
   },
 ];
 const backendSkills = [
   {
-    title: "Node.js",
+    title: "CSS3",
+    percentage: "90%",
+  },
+  {
+    title: "Bootstrap",
+    percentage: "80%",
+  },
+  {
+    title: "TailwindCSS",
     percentage: "85%",
   },
   {
-    title: "Express.js",
-    percentage: "85%",
+    title: "Firebase",
+    percentage: "70%",
   },
   {
-    title: "MongoDB",
-    percentage: "85%",
+    title: "MySQL",
+    percentage: "65%",
   },
 ];
 const Skills = () => {
@@ -54,9 +66,8 @@ const Skills = () => {
 const SkillItem = ({ title, percentage }) => {
   return (
     <div className="skill_data mb-3">
-      <div className="skill_title d-flex align-itmes-center justify-content-between">
+      <div className="skill_title d-flex align-itmes-center">
         <h6>{title}</h6>
-        <span>{percentage}</span>
       </div>
 
       <div className="skill_bar ">

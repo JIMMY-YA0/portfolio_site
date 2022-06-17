@@ -26,12 +26,9 @@ const Hero = () => {
                 I'm <span ref={textRef}></span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quis! Autem
-                culpa voluptatem earum, quae minima similique doloremque ut dolorem. Consectetur
-                pariatur magnam animi, delectus tempore at adipisci! Vero, culpa. Lorem ipsum dolor,
-                sit amet consectetur adipisicing elit. Temporibus officia distinctio soluta. Aliquam
-                alias ducimus voluptatum error corporis mollitia magni in porro debitis! Corrupti
-                saepe voluptatem reprehenderit aut reiciendis eaque.
+                Detail-oriented Front End Developer with experience working with HTML, CSS,
+                JavaScript, React. Highly adept at both independent and collaborative projects, with
+                an emphasis on landing page and website development.
               </p>
               <div className="hero_btns d-flex align-items-center gap-4 mt-5">
                 <button className="btn hire_btn">
