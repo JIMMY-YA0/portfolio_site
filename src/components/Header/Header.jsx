@@ -60,7 +60,7 @@ const Header = () => {
           <div className="logo">
             <h5>JIMWORLD</h5>
           </div>
-          <div className="nav_menu" ref={menuRef} onClick={menuToggle}>
+          <div className="nav_menu" ref={menuRef}>
             <ul className="nav_list">
               {navLinks.map((item, index) => (
                 <li className="nav_item" key={index}>

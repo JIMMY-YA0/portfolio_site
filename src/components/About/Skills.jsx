@@ -4,45 +4,45 @@ import "./Skills.css";
 const frontendSkills = [
   {
     title: "Html5",
-    percentage: "90%",
+    percentage: "100%",
   },
   {
     title: "JavaScript",
-    percentage: "75%",
+    percentage: "100%",
   },
   {
     title: "React.js",
-    percentage: "80%",
+    percentage: "100%",
   },
   {
-    title: "Redux",
-    percentage: "70%",
+    title: "Redux/Redux Toolkit",
+    percentage: "100%",
   },
   {
     title: "Git & Github",
-    percentage: "73%",
+    percentage: "100%",
   },
 ];
 const backendSkills = [
   {
     title: "CSS3",
-    percentage: "90%",
+    percentage: "100%",
   },
   {
-    title: "Bootstrap",
-    percentage: "80%",
+    title: "TailwindCSS/Bootstrap",
+    percentage: "100%",
   },
   {
-    title: "TailwindCSS",
-    percentage: "85%",
+    title: "Rest API",
+    percentage: "100%",
   },
   {
     title: "Firebase",
-    percentage: "70%",
+    percentage: "100%",
   },
   {
     title: "MySQL",
-    percentage: "65%",
+    percentage: "100%",
   },
 ];
 const Skills = () => {
