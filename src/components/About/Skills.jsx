@@ -3,15 +3,19 @@ import "./Skills.css";
 
 const frontendSkills = [
   {
-    title: "Html5",
+    title: "HTML5/CSS",
     percentage: "100%",
   },
   {
-    title: "JavaScript",
+    title: "JavaScript/TypeScript",
     percentage: "100%",
   },
   {
-    title: "React.js",
+    title: "TypeScript",
+    percentage: "100%",
+  },
+  {
+    title: "React",
     percentage: "100%",
   },
   {
@@ -19,21 +23,50 @@ const frontendSkills = [
     percentage: "100%",
   },
   {
+    title: "Next.Js",
+    percentage: "100%",
+  },
+  {
     title: "Git & Github",
+    percentage: "100%",
+  },
+  {
+    title: "CI/CD",
+    percentage: "100%",
+  },
+  {
+    title: "Python",
     percentage: "100%",
   },
 ];
 const backendSkills = [
   {
-    title: "CSS3",
-    percentage: "100%",
-  },
-  {
     title: "TailwindCSS/Bootstrap",
     percentage: "100%",
   },
   {
-    title: "Rest API",
+    title: "MUI",
+    percentage: "100%",
+  },
+  {
+    title: "Figma",
+    percentage: "100%",
+  },
+  {
+    title: "MongoDB",
+    percentage: "100%",
+  },
+  {
+    title: "Strapi",
+    percentage: "100%",
+  },
+  {
+    title: "Firebase",
+    percentage: "100%",
+  },
+
+  {
+    title: "REST API",
     percentage: "100%",
   },
   {
@@ -41,7 +74,7 @@ const backendSkills = [
     percentage: "100%",
   },
   {
-    title: "MySQL",
+    title: "SQL",
     percentage: "100%",
   },
 ];

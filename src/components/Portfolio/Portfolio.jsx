@@ -4,13 +4,14 @@ import "./Portfolio.css";
 import Port_img from "../../assets/Portfolio.JPG";
 import Macro_img from "../../assets/MacroView.JPG";
 import Linked_img from "../../assets/LinkedIn.JPG";
-import Foodel_img from "../../assets/FooDEL.JPG";
+import BurgerMax_img from "../../assets/BurgerMax.JPG";
+import FoodDEL_img from "../../assets/FooDEL.JPG";
 
 const portfolioData = [
   {
-    imgUrl: Foodel_img,
-    title: "FooDEL",
-    url: "https://foodelivery-react-ts.web.app/home",
+    imgUrl: BurgerMax_img,
+    title: "BurgerMax",
+    url: "https://burgermax.vercel.app/",
   },
   {
     imgUrl: Macro_img,
@@ -18,14 +19,19 @@ const portfolioData = [
     url: "https://macroview.web.app/Home",
   },
   {
-    imgUrl: Port_img,
-    title: "Portfolio Website",
-    url: "http://jimmyyao.com.au/",
-  },
-  {
     imgUrl: Linked_img,
     title: "LinkedIn Clone",
     url: "https://linkedin-clone-68.web.app/",
+  },
+  {
+    imgUrl: FoodDEL_img,
+    title: "FoodDEL",
+    url: "https://foodelivery-react-ts.web.app/",
+  },
+  {
+    imgUrl: Port_img,
+    title: "Portfolio Website",
+    url: "http://jimmyyao.com.au/",
   },
 ];
 

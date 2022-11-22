@@ -26,9 +26,9 @@ const Hero = () => {
                 I'm <span ref={textRef}></span>
               </h2>
               <p>
-                Detail-oriented Front End Developer with experience working with HTML, CSS,
-                JavaScript, React. Highly adept at both independent and collaborative projects, with
-                an emphasis on landing page and website development.
+                Detail-oriented Web Developer with experience working with HTML, CSS, JavaScript,
+                React. Highly adept at both independent and collaborative projects, with an emphasis
+                on website development.
               </p>
               <div className="hero_btns d-flex align-items-center gap-4 mt-5">
                 <button className="btn hire_btn">

@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
+import resume from "../../assets/Jimmy-Resume.pdf";
 import "./Header.css";
 
 const navLinks = [
@@ -71,7 +72,9 @@ const Header = () => {
             </ul>
           </div>
           <div className="nav_right d-flex align-items-center gap-4">
-            <button className="btn">Let's Talk</button>
+            <a href={resume} download="Jimmy's Resume">
+              <button className="btn">Download Resume</button>
+            </a>
             <span className="mobile_menu">
               <i class="ri-menu-5-line" onClick={menuToggle}></i>
             </span>

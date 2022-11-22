@@ -6,7 +6,7 @@ const Volunteer = () => {
     <div className="volunteer_container d-flex flex-wrap align-items-center">
       <div className="volunteer_item">
         <VolunteerItem
-          year="03.2021 - Present"
+          year="03.2021 - 10.2022"
           title="COMMUNITY VISITORS SCHEME"
           text="Established and strengthened links between people live in aged care homes
           Provided an ongoing friendship with a socially isolated older person."

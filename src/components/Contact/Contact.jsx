@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="contact_info_container d-flex align-items-center gap-5">
               <div className="single_info_box w-50">
                 <h6>Address</h6>
-                <p>17 Penny Pl, Adelaide, South Australia</p>
+                <p>1 Delhi Road, North Ryde, Sydney NSW 2113</p>
               </div>
 
               <div className="single_info_box w-50">
@@ -31,7 +31,7 @@ const Contact = () => {
 
               <div className="single_info_box w-50">
                 <h6>Loaction</h6>
-                <p>Adelaide (Reloaction available)</p>
+                <p>Sydney</p>
               </div>
             </div>
           </Col>

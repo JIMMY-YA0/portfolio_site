@@ -54,9 +54,9 @@ const About = () => {
                 <div className="about_content">
                   <h2>I'm Jimmy Yao</h2>
                   <p>
-                    Detail-oriented Front End Developer with experience working with HTML, CSS,
-                    JavaScript, React. Highly adept at both independent and collaborative projects,
-                    with an emphasis on landing page and website development.
+                    Detail-oriented Web Developer with experience working with HTML, CSS,
+                    JavaScript, Typescript, React and Next.Js. Highly adept at both independent and
+                    collaborative projects, with great emphasis on website development.
                   </p>
                   <div className="social_links">
                     <h6 className="mb-3">Connect with me:</h6>
