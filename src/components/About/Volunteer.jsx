@@ -8,8 +8,8 @@ const Volunteer = () => {
         <VolunteerItem
           year="03.2021 - 10.2022"
           title="COMMUNITY VISITORS SCHEME"
-          text="Established and strengthened links between people live in aged care homes
-          Provided an ongoing friendship with a socially isolated older person."
+          text="Established and strengthened links between people living in aged care homes. 
+          Collaborate with different volunteers and staff to organise various activities for the elderly."
         />
       </div>
     </div>

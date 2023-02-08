@@ -60,6 +60,10 @@
   box-shadow: 2px 2px 4px -2px #7765ffbd;
 }
 
+.social_links span a i {
+  color: #7865ff;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 992px) {

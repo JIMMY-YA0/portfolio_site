@@ -10,7 +10,7 @@ const Contact = () => {
           <h2>Get In Touch</h2>
         </Col>
         <Row>
-          <Col lg="6" md="6">
+          <Col lg="12" md="6">
             <div className="contact_info_container d-flex align-items-center gap-5">
               <div className="single_info_box w-50">
                 <h6>Address</h6>
@@ -30,14 +30,10 @@ const Contact = () => {
               </div>
 
               <div className="single_info_box w-50">
-                <h6>Loaction</h6>
-                <p>Sydney</p>
+                <h6>GitHub</h6>
+                <p>https://github.com/JIMMY-YA0</p>
               </div>
             </div>
-          </Col>
-
-          <Col lg="6" md="6">
-            <Form />
           </Col>
         </Row>
       </Container>

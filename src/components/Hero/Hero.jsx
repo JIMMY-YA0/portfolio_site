@@ -20,23 +20,37 @@ const Hero = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="hero_content">
-              <p className="mb-3">Welcome to my world!</p>
+              <p className="mb-3">Welcome to JIMWORLD!</p>
               <h5 className="mb-4">Hi</h5>
               <h2 className="hero_title mb-5">
                 I'm <span ref={textRef}></span>
               </h2>
               <p>
-                Detail-oriented Web Developer with experience working with HTML, CSS, JavaScript,
-                React. Highly adept at both independent and collaborative projects, with an emphasis
-                on website development.
+                Experienced Software Engenieer with a passion for developing dynamic and scalable
+                web applications. Skilled in HTML, CSS, JavaScript, React, Next.js, and Node.js.
+                Proven ability to create user-friendly and responsive UIs and develop efficient
+                back-end systems. Adept at delivering high-quality and reliable software solutions,
+                driven by a commitment to excellence in all projects.
               </p>
               <div className="hero_btns d-flex align-items-center gap-4 mt-5">
-                <button className="btn hire_btn">
+                {/* <button className="btn hire_btn">
                   <a href="#contact">Hire Me</a>
-                </button>
+                </button> */}
                 <button className="btn contact_btn">
-                  <a href="#contact">Contact</a>
+                  <a href="#contact">Contact Me</a>
                 </button>
+                <div className="social_links">
+                  <span>
+                    <a href="https://github.com/JIMMY-YA0" target="_blank">
+                      <i class="ri-github-fill"></i>
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://www.linkedin.com/in/jimmy-yao-cs/" target="_blank">
+                      <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
           </Col>

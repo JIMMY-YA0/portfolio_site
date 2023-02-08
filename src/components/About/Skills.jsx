@@ -11,10 +11,6 @@ const frontendSkills = [
     percentage: "100%",
   },
   {
-    title: "TypeScript",
-    percentage: "100%",
-  },
-  {
     title: "React",
     percentage: "100%",
   },
@@ -27,11 +23,23 @@ const frontendSkills = [
     percentage: "100%",
   },
   {
+    title: "Node.Js",
+    percentage: "100%",
+  },
+  {
     title: "Git & Github",
     percentage: "100%",
   },
   {
     title: "CI/CD",
+    percentage: "100%",
+  },
+  {
+    title: "AWS",
+    percentage: "100%",
+  },
+  {
+    title: "Docker",
     percentage: "100%",
   },
   {
@@ -70,11 +78,19 @@ const backendSkills = [
     percentage: "100%",
   },
   {
-    title: "Firebase",
+    title: "SQL",
     percentage: "100%",
   },
   {
-    title: "SQL",
+    title: "NoSQL",
+    percentage: "100%",
+  },
+  {
+    title: "Jest",
+    percentage: "100%",
+  },
+  {
+    title: "Render",
     percentage: "100%",
   },
 ];
@@ -103,7 +119,7 @@ const SkillItem = ({ title, percentage }) => {
         <h6>{title}</h6>
       </div>
 
-      <div className="skill_bar ">
+      <div className="skill_bar">
         <span className="skill_bar-percentage" style={{ width: `${percentage}` }}></span>
       </div>
     </div>

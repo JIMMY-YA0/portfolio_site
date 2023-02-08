@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
 import About from "../About/About";
-import Portfolio from "../Portfolio/Portfolio";
+import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 const Layout = () => {
@@ -10,8 +10,9 @@ const Layout = () => {
     <>
       <Header />
       <Hero />
+      <Projects />
       <About />
-      <Portfolio />
+
       <Contact />
       <Footer />
     </>
