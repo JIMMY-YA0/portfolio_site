@@ -10,7 +10,7 @@ const Hero = () => {
     init(textRef.current, {
       backDelay: 1500,
       showCursor: true,
-      strings: ["Jimmy Yao", "a Web Developer"],
+      strings: ["Jimmy Yao", "a Software Development Engineer"],
     });
   }, []);
 
@@ -21,7 +21,7 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className="hero_content">
               <p className="mb-3">Welcome to JIMWORLD!</p>
-              <h5 className="mb-4">Hi</h5>
+              <h5 className="mb-4">Hi,</h5>
               <h2 className="hero_title mb-5">
                 I'm <span ref={textRef}></span>
               </h2>
