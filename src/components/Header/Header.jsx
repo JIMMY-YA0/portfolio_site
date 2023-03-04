@@ -1,24 +1,24 @@
-import React, { useRef, useEffect } from "react";
-import { Container } from "reactstrap";
-import resume from "../../assets/Jimmy-Resume.pdf";
-import "./Header.css";
+import React, { useRef, useEffect } from 'react';
+import { Container } from 'reactstrap';
+import resume from '../../assets/Jimmy-Resume.pdf';
+import './Header.css';
 
 const navLinks = [
   {
-    display: "Home",
-    url: "#home",
+    display: 'Home',
+    url: '#home',
   },
   {
-    display: "About",
-    url: "#about",
+    display: 'About',
+    url: '#about',
   },
   {
-    display: "Portfolio",
-    url: "#portfolio",
+    display: 'Portfolio',
+    url: '#portfolio',
   },
   {
-    display: "Contact",
-    url: "#contact",
+    display: 'Contact',
+    url: '#contact',
   },
 ];
 
@@ -26,20 +26,20 @@ const Header = () => {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        headerRef.current.classList.add("header_shrink");
+        headerRef.current.classList.add('header_shrink');
       } else {
-        headerRef.current.classList.remove("header_shrink");
+        headerRef.current.classList.remove('header_shrink');
       }
     });
 
     return () => {
-      window.removeEventListener("scroll");
+      window.removeEventListener('scroll');
     };
   }, []);
 
-  const menuToggle = () => menuRef.current.classList.toggle("menu_active");
+  const menuToggle = () => menuRef.current.classList.toggle('menu_active');
 
   // 1:23:45
   // const handleClick = (e) => {
@@ -73,7 +73,7 @@ const Header = () => {
           </div>
           <div className="nav_right d-flex align-items-center gap-4">
             <a href={resume} download="Jimmy's Resume">
-              <button className="btn">Download Resume</button>
+              <button className="btn resume_btn">Download Resume</button>
             </a>
             <span className="mobile_menu">
               <i class="ri-menu-5-line" onClick={menuToggle}></i>

@@ -1,8 +1,8 @@
-import React, { useRef, useEffect } from "react";
-import "./Hero.css";
-import { Container, Row, Col } from "reactstrap";
-import { init } from "ityped";
-import heroImg from "../../assets/Hero_img.svg";
+import React, { useRef, useEffect } from 'react';
+import './Hero.css';
+import { Container, Row, Col } from 'reactstrap';
+import { init } from 'ityped';
+import heroImg from '../../assets/Hero_img.svg';
 const Hero = () => {
   const textRef = useRef();
 
@@ -10,7 +10,7 @@ const Hero = () => {
     init(textRef.current, {
       backDelay: 1500,
       showCursor: true,
-      strings: ["Jimmy Yao", "a Software Development Engineer"],
+      strings: ['Jimmy Yao', 'a Software Development Engineer'],
     });
   }, []);
 
@@ -36,17 +36,23 @@ const Hero = () => {
                 {/* <button className="btn hire_btn">
                   <a href="#contact">Hire Me</a>
                 </button> */}
-                <button className="btn contact_btn">
-                  <a href="#contact">Contact Me</a>
-                </button>
+
+                <a href="#contact">
+                  <button className="btn contact_btn">Contact Me </button>
+                </a>
+
                 <div className="social_links">
                   <span>
-                    <a href="https://github.com/JIMMY-YA0" target="_blank">
+                    <a href="https://github.com/JIMMY-YA0" target="_blank" rel="noreferrer">
                       <i class="ri-github-fill"></i>
                     </a>
                   </span>
                   <span>
-                    <a href="https://www.linkedin.com/in/jimmy-yao-cs/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/jimmy-yao-cs/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <i class="ri-linkedin-box-fill"></i>
                     </a>
                   </span>

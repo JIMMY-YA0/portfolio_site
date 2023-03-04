@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import "./Contact.css";
-import Form from "../Form/Form";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import './Contact.css';
+// import Form from '../Form/Form';
 const Contact = () => {
   return (
     <section id="contact">
@@ -18,8 +18,8 @@ const Contact = () => {
               </div>
 
               <div className="single_info_box w-50">
-                <h6>Phone</h6>
-                <p>0424391121</p>
+                <h6>GitHub</h6>
+                <p>https://github.com/JIMMY-YA0</p>
               </div>
             </div>
 
@@ -28,10 +28,9 @@ const Contact = () => {
                 <h6>Email</h6>
                 <p>jimmyyaocs@gmail.com</p>
               </div>
-
               <div className="single_info_box w-50">
-                <h6>GitHub</h6>
-                <p>https://github.com/JIMMY-YA0</p>
+                <h6>Phone</h6>
+                <p>0424391121</p>
               </div>
             </div>
           </Col>

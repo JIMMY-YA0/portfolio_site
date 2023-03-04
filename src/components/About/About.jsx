@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./About.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../assets/developer.svg";
 import Education from "./Education";
 import Skills from "./Skills";
 import Volunteer from "./Volunteer";
