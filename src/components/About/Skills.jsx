@@ -1,83 +1,83 @@
-import React from "react";
-import "./Skills.css";
+import React from 'react'
+import './Skills.css'
 
 const frontendSkills = [
   {
-    title: "HTML5/CSS",
+    title: 'HTML5/CSS'
   },
   {
-    title: "JavaScript/TypeScript",
+    title: 'JavaScript/TypeScript'
   },
   {
-    title: "React",
+    title: 'React'
   },
   {
-    title: "Redux/Redux Toolkit",
+    title: 'Redux/Redux Toolkit'
   },
   {
-    title: "Next.Js",
+    title: 'Next.Js'
   },
   {
-    title: "Node.Js",
+    title: 'Node.Js'
   },
   {
-    title: "Express",
+    title: 'Express'
   },
   {
-    title: "Git & Github",
+    title: 'Git & Github'
   },
   {
-    title: "CI/CD",
+    title: 'CI/CD'
   },
   {
-    title: "AWS",
+    title: 'AWS'
   },
   {
-    title: "Docker",
+    title: 'Docker'
   },
   {
-    title: "Python",
-  },
-];
+    title: 'Python'
+  }
+]
 const backendSkills = [
   {
-    title: "TailwindCSS/Bootstrap",
+    title: 'TailwindCSS/Bootstrap'
   },
   {
-    title: "MUI",
+    title: 'MUI'
   },
   {
-    title: "Figma",
+    title: 'Figma'
   },
   {
-    title: "MongoDB",
+    title: 'MongoDB'
   },
   {
-    title: "Strapi",
+    title: 'Strapi'
   },
   {
-    title: "Firebase",
+    title: 'Firebase'
   },
 
   {
-    title: "REST API",
+    title: 'REST API'
   },
   {
-    title: "SQL",
+    title: 'SQL'
   },
   {
-    title: "NoSQL",
+    title: 'NoSQL'
   },
   {
-    title: "Jest",
+    title: 'Jest'
   },
   {
-    title: "Render",
+    title: 'Render'
   },
   {
-    title: "Postman",
-  },
-];
+    title: 'Postman'
+  }
+]
 const Skills = () => {
   return (
     <div className="skills_wrapper d-flex gap-5">
@@ -93,8 +93,8 @@ const Skills = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
 const SkillItem = ({ title }) => {
   return (
@@ -103,10 +103,8 @@ const SkillItem = ({ title }) => {
         <h6>{title}</h6>
       </div>
       <div className="skill_bar"></div>
-
-      {/* <div className="skill_bar"><span className="skill_bar-percentage"></span></div> */}
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

@@ -1,5 +1,5 @@
-import React from "react";
-import "./Volunteer.css";
+import React from 'react'
+import './Volunteer.css'
 
 const Volunteer = () => {
   return (
@@ -13,8 +13,8 @@ const Volunteer = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 const VolunteerItem = ({ year, title, text }) => {
   return (
@@ -24,7 +24,7 @@ const VolunteerItem = ({ year, title, text }) => {
         {title} - <span>{text}</span>
       </h6>
     </div>
-  );
-};
+  )
+}
 
-export default Volunteer;
+export default Volunteer
