@@ -58,7 +58,7 @@ const Hero = () => {
             </div>
           </Col>
           <Col lg="6" md="6" className="hero_img">
-            <img src={heroImg} alt="" className="w-100" />
+            <img src={heroImg} alt="" className="img-fluid" />
           </Col>
         </Row>
       </Container>

@@ -66,23 +66,22 @@ const Portfolio = () => {
 
           {projectsData.map((item, index) => {
             return (
-              <Col lg="6" md="6" sm="6" key={index}>
-                <div className="portfolio_card ">
+              <Col lg="6" md="12" sm="12" key={index}>
+                <div className="portfolio_card">
                   <div className="portfolio_img justify-content-between">
-                    <img src={item.imgUrl} alt="" className="w-100" />
-                  </div>
+                    <img src={item.imgUrl} alt="" className="img-fluid" />
+                    <div className="portfolio_content">
+                      <h5>{item.title}</h5>
+                      <p>Tech stack: {item.techStack}</p>
+                      <div className="buttons">
+                        <a href={item.url} target="_blank" rel="noreferrer">
+                          <button className="btn">live Demo</button>
+                        </a>
 
-                  <div className="portfolio_content">
-                    <h5>{item.title}</h5>
-                    <p>Tech stack: {item.techStack}</p>
-                    <div className="buttons">
-                      <a href={item.url} target="_blank" rel="noreferrer">
-                        <button className="btn">live Demo</button>
-                      </a>
-
-                      <a href={item.github_url} target="_blank" rel="noreferrer">
-                        <button className="btn">Source code</button>
-                      </a>
+                        <a href={item.github_url} target="_blank" rel="noreferrer">
+                          <button className="btn">Source code</button>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
