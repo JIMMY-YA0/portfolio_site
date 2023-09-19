@@ -31,13 +31,9 @@ const Hero = () => {
                 TypeScript, JavaScript, React, Next.js, and Node.js. Proven ability to create
                 user-friendly and responsive UIs and develop efficient back-end systems. Adept at
                 delivering high-quality and reliable software solutions, driven by a commitment to
-                excellence in all projects.
+                excellence in all&nbsp;projects.
               </p>
               <div className="hero_btns d-flex align-items-center gap-4 mt-5">
-                {/* <button className="btn hire_btn">
-                  <a href="#contact">Hire Me</a>
-                </button> */}
-
                 <a href="#contact" className="contact_btn">
                   <button className="btn">Contact Me </button>
                 </a>
@@ -61,10 +57,8 @@ const Hero = () => {
               </div>
             </div>
           </Col>
-          <Col lg="6" md="6">
-            <div className="hero_img">
-              <img src={heroImg} alt="" className="w-100" />
-            </div>
+          <Col lg="6" md="6" className="hero_img">
+            <img src={heroImg} alt="" className="w-100" />
           </Col>
         </Row>
       </Container>
