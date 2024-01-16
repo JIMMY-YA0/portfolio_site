@@ -77,14 +77,6 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className="nav_right d-flex align-items-center gap-4">
-            <a href={resume} download="Jimmy's Resume">
-              <button className="btn resume_btn">Download Resume</button>
-            </a>
-            <span className="mobile_menu">
-              <i class="ri-menu-5-line" onClick={menuToggle}></i>
-            </span>
-          </div>
         </div>
       </Container>
     </header>
