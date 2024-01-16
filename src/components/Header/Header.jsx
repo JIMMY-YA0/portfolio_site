@@ -10,10 +10,6 @@ const navLinks = [
     url: '#home'
   },
   {
-    display: 'Experience',
-    url: '#experience'
-  },
-  {
     display: 'Portfolio',
     url: '#portfolio'
   },
