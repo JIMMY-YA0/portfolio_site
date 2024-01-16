@@ -18,7 +18,7 @@ const Contact = () => {
               </div>
               <div className="single_info_box w-50">
                 <h6>Phone</h6>
-                <p>0424391121</p>
+                <p>04 243 911 21</p>
               </div>
             </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
               </div>
               <div className="single_info_box w-50">
                 <h6>Address</h6>
-                <p>1 Delhi Road, North Ryde, Sydney NSW 2113</p>
+                <p>Sydney, Australia</p>
               </div>
             </div>
           </Col>
