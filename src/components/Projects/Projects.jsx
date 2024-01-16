@@ -10,6 +10,13 @@ import Nasaproject_img from '../../assets/Nasaproject.JPG'
 
 const projectsData = [
   {
+    imgUrl: BurgerMax_img,
+    title: 'BurgerMax',
+    techStack: 'Javascript, Next.js, React, Redux, MongoDB, Cookie, Mui, Paypal API',
+    url: 'https://burgermax.vercel.app/',
+    github_url: 'https://github.com/JIMMY-YA0/BurgerMax'
+  },
+  {
     imgUrl: Dashboard_img,
     title: 'Admin DashBoard',
     techStack: 'Javascript, React, Redux, RTK query, Node.js, Express, Mui, MongoDB, Nivo Charts',
@@ -17,26 +24,17 @@ const projectsData = [
     github_url: 'https://github.com/JIMMY-YA0/Admin-dashboard'
   },
   {
-    imgUrl: Nasaproject_img,
-    title: 'Nasa Mission Control',
-    techStack: 'Javascript, Node.js, Express, MongoDB, Jest, Docker, AWS',
-    url: 'http://13.236.2.145:8000/',
-    github_url: 'https://github.com/JIMMY-YA0/Nasa-exoplanet-project'
-  },
-  {
-    imgUrl: BurgerMax_img,
-    title: 'BurgerMax',
-    techStack: 'Javascript, Next.js, React, Redux, MongoDB, Cookie, Mui, Paypal API',
-    url: 'https://burgermax.vercel.app/',
-    github_url: 'https://github.com/JIMMY-YA0/BurgerMax'
-  },
-
-  {
     imgUrl: Macro_img,
     title: 'MacroView',
     techStack: 'Javascript, React, React router, TailwindCSS, Firebase Auth, Firebase Database',
     url: 'https://macroview.web.app/Home',
     github_url: 'https://github.com/JIMMY-YA0/Movies-React'
+  },
+  {
+    imgUrl: Nasaproject_img,
+    title: 'Nasa Mission Control',
+    techStack: 'Javascript, Node.js, Express, MongoDB, Jest, Docker, AWS',
+    github_url: 'https://github.com/JIMMY-YA0/Nasa-exoplanet-project'
   },
   {
     imgUrl: Linked_img,
@@ -74,9 +72,13 @@ const Portfolio = () => {
                       <h5>{item.title}</h5>
                       <p>Tech stack: {item.techStack}</p>
                       <div className="buttons">
-                        <a href={item.url} target="_blank" rel="noreferrer">
-                          <button className="btn">live Demo</button>
-                        </a>
+                        {item.url ? (
+                          <a href={item.url} target="_blank" rel="noreferrer">
+                            <button className="btn">live Demo</button>
+                          </a>
+                        ) : (
+                          ''
+                        )}
 
                         <a href={item.github_url} target="_blank" rel="noreferrer">
                           <button className="btn">Source code</button>
