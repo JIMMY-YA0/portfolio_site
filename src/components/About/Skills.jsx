@@ -1,18 +1,21 @@
 import React from 'react'
 import './Skills.css'
 
-const frontendSkills = [
+const SkillLeft = [
   {
     title: 'HTML5/CSS'
   },
   {
-    title: 'JavaScript/TypeScript'
+    title: 'JavaScript'
+  },
+  {
+    title: 'TypeScript'
   },
   {
     title: 'React'
   },
   {
-    title: 'Redux/Redux Toolkit'
+    title: 'Redux'
   },
   {
     title: 'Next.Js'
@@ -39,9 +42,12 @@ const frontendSkills = [
     title: 'Python'
   }
 ]
-const backendSkills = [
+const SkillRight = [
   {
-    title: 'TailwindCSS/Bootstrap'
+    title: 'TailwindCSS'
+  },
+  {
+    title: 'Bootstrap'
   },
   {
     title: 'MUI'
@@ -82,13 +88,13 @@ const Skills = () => {
   return (
     <div className="skills_wrapper d-flex gap-5">
       <div className="frontend_skill w-50">
-        {frontendSkills.map((item, index) => (
+        {SkillLeft.map((item, index) => (
           <SkillItem key={index} title={item.title} />
         ))}
       </div>
 
       <div className="backend_skill w-50">
-        {backendSkills.map((item, index) => (
+        {SkillRight.map((item, index) => (
           <SkillItem key={index} title={item.title} />
         ))}
       </div>
@@ -99,7 +105,7 @@ const Skills = () => {
 const SkillItem = ({ title }) => {
   return (
     <div className="skill_data mb-3">
-      <div className="skill_title d-flex align-itmes-center">
+      <div className="skill_title inline-block align-itmes-center ">
         <h6>{title}</h6>
       </div>
       <div className="skill_bar"></div>
