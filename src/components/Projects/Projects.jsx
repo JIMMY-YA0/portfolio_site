@@ -74,7 +74,7 @@ const Portfolio = () => {
                       <div className="buttons">
                         {item.url ? (
                           <a href={item.url} target="_blank" rel="noreferrer">
-                            <button className="btn">live Demo</button>
+                            <button className="btn btn-sm">live Demo</button>
                           </a>
                         ) : (
                           ''

@@ -73,7 +73,7 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className="nav_right d-flex align-items-between gap-4">
+          <div className="nav_right gap-4">
             <span className="mobile_menu">
               <i class="ri-menu-5-line" onClick={menuToggle}></i>
             </span>
